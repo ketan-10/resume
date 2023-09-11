@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    box-sizing: border-box;
+    /* // so width will be calculated with padding and border // smooth scrolling */
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+html {
+    overflow-y: scroll;
+}
