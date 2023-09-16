@@ -23,3 +23,9 @@ a {
 html {
     overflow-y: scroll;
 }
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
